@@ -7,24 +7,9 @@
 #include "../include/cleanup_out_fail.h"
 #include "../include/cmp_forward.h"
 #include "../include/dup_str.h"
+#include "../include/free_lines.h"
 #include "../include/soft_assert.h"
 
-/**
- * @brief Free line strings and line buffer.
- * @param lines Lines buffer.
- * @param count Number of initialized lines.
- */
-static void free_lines(Line *lines, size_t count) {
-    for (size_t i = 0; i < count; i++) {
-        free(lines[i].ptr);
-    }
-    free(lines);
-}
-
-/**
- * @brief Program entry point.
- * @return 0 on success, non-zero on failure.
- */
 int main(void) {
     const char *in_name = "hamlet.txt";
     const char *out_name = "result.txt";
