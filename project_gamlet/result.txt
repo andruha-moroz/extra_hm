@@ -1,0 +1,15 @@
+=== FORWARD ===
+Amber leaves dance under the river
+Bright stars glow above the mountain
+Golden dawn wakes up the valley
+Quiet winds sing across the mountain
+Silent night falls over the valley
+Silver birds fly over the river
+
+=== REVERSE ===
+Bright stars glow above the mountain
+Quiet winds sing across the mountain
+Amber leaves dance under the river
+Silver birds fly over the river
+Golden dawn wakes up the valley
+Silent night falls over the valley
